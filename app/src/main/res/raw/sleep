@@ -1,0 +1,37 @@
+{
+    "sleep":{
+        "estimate":"一般",
+        "time_total":"5小时54分",
+        "time_deep":"3小时23分",
+        "time_light":"2小时06分",
+        "time_awake":"25分钟",
+        "time_start":"1:00",
+        "time_end":"6:54",
+        "graph":{
+            "value1":2,
+            "value2":1,
+            "value3":2,
+            "value4":2,
+            "value5":1,
+            "value6":1,
+            "value7":2,
+            "value8":2,
+            "value9":1,
+            "value10":2,
+            "value11":1,
+            "value12":2,
+            "value13":1,
+            "value14":1,
+            "value15":2,
+            "value16":1,
+            "value17":2,
+            "value18":2,
+            "value19":2,
+            "value20":1,
+            "value21":2,
+            "value22":2,
+            "value23":1,
+            "value24":2
+        }
+    }
+}

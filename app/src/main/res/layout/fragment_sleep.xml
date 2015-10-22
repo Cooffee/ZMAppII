@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_data"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:id="@+id/layout_circle"
+            android:clickable="true"
+            android:layout_width="@dimen/data_circle_size"
+            android:layout_height="@dimen/data_circle_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/itemcheck_circle_margin_top"
+            android:background="@drawable/circle">
+
+            <TextView
+                android:id="@+id/tv_sleep_depth_estimation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="16dp"
+                android:text="@string/good"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/itemcheck_text_size_big" />
+
+            <TextView
+                android:id="@+id/textview01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/tv_sleep_depth_estimation"
+                android:text="@string/yesterday_sleep_estimation"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/itemcheck_text_size_small" />
+
+            <LinearLayout
+                android:id="@+id/layout_time_total"
+                android:layout_below="@id/tv_sleep_depth_estimation"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="18dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="总时长"
+                    android:textColor="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/tv_time_total"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_deep"
+                android:layout_below="@id/layout_time_total"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="18dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="深睡时长"
+                    android:textColor="@android:color/white"/>
+                <TextView
+                    android:id="@+id/tv_time_deep"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_light"
+                android:layout_below="@id/layout_deep"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="18dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="浅睡时长"
+                    android:textColor="@android:color/white"/>
+                <TextView
+                    android:id="@+id/tv_time_light"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_awake"
+                android:layout_below="@id/layout_light"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="18dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="清醒时长"
+                    android:textColor="@android:color/white"/>
+                <TextView
+                    android:id="@+id/tv_time_awake"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chart_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_data"
+        android:orientation="vertical"
+        android:padding="@dimen/chart_padding">
+
+    </LinearLayout>
+</RelativeLayout>

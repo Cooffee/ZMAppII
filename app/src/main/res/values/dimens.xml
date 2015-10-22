@@ -1,0 +1,105 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">280dp</dimen>
+    <dimen name="drawer_margin_top">24dp</dimen>
+    <dimen name="app_bar_padding">0dp</dimen>
+
+    <!-- dimens in title bar -->
+    <dimen name="title_bar_height">45dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="title_bar_ic_menu_margin_right">40dp</dimen>
+
+    <dimen name="ic_sidebar_length">22dp</dimen>
+    <dimen name="ic_sidebar_margin_left">10dp</dimen>
+    <dimen name="layout_ic_sidebar_padding_right">60dp</dimen>
+
+    <!-- dimens in "login" activity -->
+    <dimen name="login_logo_length">180dp</dimen>
+    <dimen name="login_logo_margin_top">80dp</dimen>
+    <dimen name="login_logo_margin_bottom">20dp</dimen>
+    <dimen name="login_et_horizontal_margin">20dp</dimen>
+    <dimen name="login_btn_login_margin_top">10dp</dimen>
+    <dimen name="login_et_spacing">10dp</dimen>
+    <dimen name="login_tv_text_size">18sp</dimen>
+    <dimen name="login_btn_text_size">20sp</dimen>
+    <dimen name="login_et_padding">12dp</dimen>
+    <dimen name="login_tv_forgetpwd_margin_top">6dp</dimen>
+
+    <!-- dimens in "search password" activity -->
+    <dimen name="searchpwd_btn_send_margin_top">20dp</dimen>
+    <dimen name="searchpwd_btn_send_text_size">24sp</dimen>
+    <dimen name="searchpwd_et_horizontal_margin">26dp</dimen>
+    <dimen name="searchpwd_ic_back_length">30dp</dimen>
+    <dimen name="searchpwd_ic_back_margin_left">10dp</dimen>
+
+    <!-- dimens in "left menu" activity -->
+    <dimen name="leftmenu_user_height">80dp</dimen>
+    <dimen name="leftmenu_user_margin_bottom">10dp</dimen>
+    <dimen name="leftmenu_img_user_length">50dp</dimen>
+    <dimen name="leftmenu_icon_length">26dp</dimen>
+    <dimen name="leftmenu_widget_margin_left">16dp</dimen>
+    <dimen name="leftmenu_tv_user_size">20sp</dimen>
+    <dimen name="leftmenu_item_size">24sp</dimen>
+    <dimen name="leftmenu_item_height">40dp</dimen>
+    <dimen name="leftmenu_line_margin_vertical">5dp</dimen>
+
+    <!-- dimens in "about us" activity -->
+    <dimen name="aboutus_default_size">16sp</dimen>
+    <dimen name="aboutus_default_margin">20dp</dimen>
+    <dimen name="aboutus_tv_organization_name_margin_top">48dp</dimen>
+    <dimen name="aboutus_tv_organization_name_size">20sp</dimen>
+
+    <!-- dimens in "data check" activity -->
+    <dimen name="datacheck_item_height">55dp</dimen>
+    <dimen name="datacheck_tab_icon_length">30dp</dimen>
+    <dimen name="datacheck_tab_text_size">12sp</dimen>
+
+    <!-- dimens in "date check's overview" fragment -->
+    <dimen name="overview_text_size_small">24sp</dimen>
+    <dimen name="overview_text_size_big">28sp</dimen>
+    <dimen name="overview_text_size_special_big">50sp</dimen>
+    <dimen name="overview_text_padding">5dp</dimen>
+    <dimen name="overview_rating_margin">38dp</dimen>
+    <dimen name="overview_rating_bar_height">20dp</dimen>
+    <dimen name="overview_list_view_item_height">100dp</dimen>
+    <dimen name="overview_text_margin_bottom">5dp</dimen>
+
+    <!-- dimens in "data check's item check" activity -->
+    <dimen name="itemcheck_bg_green_circle_length">650dp</dimen>
+    <dimen name="itemcheck_ic_margin">10dp</dimen>
+    <dimen name="itemcheck_top_tv_margin_top">40dp</dimen>
+    <dimen name="itemcheck_sleep_top_tv_margin_top">57dp</dimen>
+    <dimen name="itemcheck_text_size_small">24sp</dimen>
+    <dimen name="itemcheck_text_size_big">50sp</dimen>
+    <dimen name="itemcheck_default_margin_between_text_view">5dp</dimen>
+    <dimen name="itemcheck_sleep_margin_between_text_view">20dp</dimen>
+    <dimen name="itemcheck_circle_bar_height">330dp</dimen>
+    <dimen name="itemcheck_circle_margin_top">16dp</dimen>
+    <dimen name="itemcheck_referenced_data_text_view_margin_top">3dp</dimen>
+    <dimen name="itemcheck_referenced_data_text_view_margin_bottom">10dp</dimen>
+    <dimen name="itemcheck_referenced_data_text_size">16sp</dimen>
+
+    <!-- dimens in "abnormal check" activity -->
+    <dimen name="abnormal_list_item_height">45dp</dimen>
+    <dimen name="abnormal_list_item_text_size">16sp</dimen>
+    <dimen name="chart_padding">10dp</dimen>
+
+    <!--dimens in "push" activity-->
+    <dimen name="push_margin_horizontal">16dp</dimen>
+    <dimen name="push_margin_top">16dp</dimen>
+    <dimen name="push_title_margin_top">24dp</dimen>
+    <dimen name="push_title_text_size">20sp</dimen>
+    <dimen name="push_content_margin_top">20dp</dimen>
+    <dimen name="push_content_text_size">16sp</dimen>
+
+    <!--dimens in "standard" activity-->
+    <dimen name="standard_padding">16dp</dimen>
+    <dimen name="standard_title_text_size">16sp</dimen>
+    <dimen name="standard_height">48dp</dimen>
+    <dimen name="standard_content_text_size">16sp</dimen>
+    <dimen name="standard_title_margin_top">16dp</dimen>
+    <dimen name="data_circle_size">260dp</dimen>
+    <dimen name="icon_warning_length">48dp</dimen>
+</resources>

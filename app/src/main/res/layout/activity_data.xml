@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eric.zmappii.activities.OrgIntroActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <!-- tab栏 -->
+            <LinearLayout
+                android:id="@+id/tab_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/datacheck_item_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorTabBg"
+                android:orientation="horizontal" >
+
+
+                <!-- 心跳数据 -->
+
+                <LinearLayout
+                    android:id="@+id/id_tab_heartbeat_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_heartbeat_rate"
+                        android:layout_width="@dimen/datacheck_tab_icon_length"
+                        android:layout_height="@dimen/datacheck_tab_icon_length" />
+
+                    <TextView
+                        android:id="@+id/tv_heartbeat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/hearbeat_rate"
+                        android:textColor="@color/colorTabText"
+                        android:textSize="@dimen/datacheck_tab_text_size" />
+                </LinearLayout>
+
+                <!-- 呼吸数据 -->
+
+                <LinearLayout
+                    android:id="@+id/id_tab_breathe_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_breathe_rate"
+                        android:layout_width="@dimen/datacheck_tab_icon_length"
+                        android:layout_height="@dimen/datacheck_tab_icon_length" />
+
+                    <TextView
+                        android:id="@+id/tv_breathe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/breathe"
+                        android:textColor="@color/colorTabText"
+                        android:textSize="@dimen/datacheck_tab_text_size" />
+                </LinearLayout>
+
+                <!-- 数据总览 -->
+
+                <LinearLayout
+                    android:id="@+id/id_tab_overview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_overview"
+                        android:layout_width="@dimen/datacheck_tab_icon_length"
+                        android:layout_height="@dimen/datacheck_tab_icon_length" />
+
+                    <TextView
+                        android:id="@+id/tv_overview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/over_view"
+                        android:textColor="@color/colorTabText"
+                        android:textSize="@dimen/datacheck_tab_text_size" />
+                </LinearLayout>
+                <!-- 体动数据 -->
+
+                <LinearLayout
+                    android:id="@+id/id_tab_body_move"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_body_move"
+                        android:layout_width="@dimen/datacheck_tab_icon_length"
+                        android:layout_height="@dimen/datacheck_tab_icon_length" />
+
+                    <TextView
+                        android:id="@+id/tv_move"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/body_move"
+                        android:textColor="@color/colorTabText"
+                        android:textSize="@dimen/datacheck_tab_text_size" />
+                </LinearLayout>
+
+                <!-- 睡眠深度 -->
+
+                <LinearLayout
+                    android:id="@+id/id_tab_sleep_depth"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_sleep_depth"
+                        android:layout_width="@dimen/datacheck_tab_icon_length"
+                        android:layout_height="@dimen/datacheck_tab_icon_length" />
+
+                    <TextView
+                        android:id="@+id/tv_sleep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sleep"
+                        android:textColor="@color/colorTabText"
+                        android:textSize="@dimen/datacheck_tab_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/tab_bar" />
+        </RelativeLayout>
+
+        <fragment
+            android:id="@+id/fragment_navigation_drawer"
+            android:name="com.eric.zmappii.fragments.NavigationDrawerFragment"
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:layout="@layout/fragment_navigation_drawer"
+            tools:layout="@layout/fragment_navigation_drawer" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

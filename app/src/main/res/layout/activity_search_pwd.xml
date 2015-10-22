@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <!-- 电话号码输入栏 -->
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/searchpwd_et_horizontal_margin"
+            android:layout_marginRight="@dimen/searchpwd_et_horizontal_margin"
+            android:hint="@string/hint_phone"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittext_bg"/>
+
+        <!-- 发送短信按钮 -->
+        <Button
+            android:id="@+id/btn_send"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/searchpwd_btn_send_margin_top"
+            android:layout_marginLeft="@dimen/searchpwd_et_horizontal_margin"
+            android:layout_marginRight="@dimen/searchpwd_et_horizontal_margin"
+            android:text="@string/bt_send"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_bg"/>
+    </LinearLayout>
+</RelativeLayout>
+

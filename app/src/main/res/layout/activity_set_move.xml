@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eric.zmappii.activities.SetMoveActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBgDefault">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/img_up"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_upper_limit"/>
+
+            <EditText
+                android:id="@+id/et_move_max"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/img_up"
+                android:hint="请输入体动阈值上限（次/分）"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textSize="16sp"
+                android:background="@null"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

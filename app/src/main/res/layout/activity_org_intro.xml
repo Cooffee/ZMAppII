@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eric.zmappii.activities.OrgIntroActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/img_organization"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_organization_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/organization_name"
+                android:textSize="@dimen/aboutus_tv_organization_name_size" />
+
+            <TextView
+                android:id="@+id/tv_organization_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_organization_name"
+                android:layout_margin="@dimen/aboutus_default_margin"
+                android:text="@string/organization_intro"
+                android:textSize="@dimen/aboutus_default_size" />
+
+            <TextView
+                android:id="@+id/tv_organization_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_organization_intro"
+                android:layout_marginLeft="@dimen/aboutus_default_margin"
+                android:layout_marginRight="@dimen/aboutus_default_margin"
+                android:text="@string/organization_address"
+                android:textSize="@dimen/aboutus_default_size" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

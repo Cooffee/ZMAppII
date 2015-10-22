@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1ABA9C</color>
+    <color name="colorPrimaryDark">#04B090</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="colorNavDrawerBg">#1d1d1d</color>
+    <color name="colorStar">#FFE12D</color>
+    <color name="colorListBg01">#DCEAE7</color>
+    <color name="colorListBg02">#EAEAEA</color>
+    <color name="colorListText">#5D5D5D</color>
+    <color name="colorHighlight">#9EFF49</color>
+    <color name="colorBgDefault">#EBEBEB</color>
+    <color name="colorTabBg">#EEEEEE</color>
+    <color name="colorTabText">#5D5D5D</color>
+    <color name="colorSecond">#EEEEEE</color>
+    <color name="colorSecondDark">#5d5d5d</color>
+    <color name="colorDivider">#CCCCCC</color>
+    <color name="colorWarning">#FF0000</color>
+</resources>

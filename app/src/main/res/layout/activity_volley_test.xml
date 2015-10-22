@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imedia.zmapp.activities.VolleyTestActivity">
+
+    <Button
+        android:id="@+id/btn_objectRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Make JSON Object Request"/>
+
+    <Button
+        android:id="@+id/btn_arrayRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Make JSON Array Request"
+        android:layout_below="@id/btn_objectRequest"/>
+
+    <TextView
+        android:id="@+id/tv_Response"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_arrayRequest"
+        android:layout_marginTop="40px"
+        android:padding="20dp" />
+</RelativeLayout>

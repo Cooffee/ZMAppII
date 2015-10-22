@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">知眠</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_phone">手机号</string>
+    <string name="hint_pwd">密码</string>
+    <string name="bt_login">登  录</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="search_pwd">找回密码</string>
+    <string name="bt_back">返回</string>
+    <string name="bt_send">发送到手机</string>
+    <string name="user">用户：</string>
+    <string name="userID">18857119873</string>
+    <string name="data_check">数据查看</string>
+    <string name="abnormal_check">异常查看</string>
+    <string name="about_us">关于我们</string>
+    <string name="log_out">退出登录</string>
+    <string name="organization_name">和谐园</string>
+    <string name="organization_intro">\t\t养老院本着“老有所养、老有所医、老有所教、老有所学、老有所乐”的原则，
+        开展“和谐敬老院”建设活动，人性化、亲情化服务老人。在生活上科学安排，精心调配，科学安排好每周、每日的食谱，
+        既注意花样，又注意营养。老人生活用品定期统一发放，对于病号、行动不便的五保老人，安排专人负责，每逢老人生日、
+        传统节日，敬老院都按传统习俗进行庆祝。</string>
+    <string name="organization_address">地址：XX省XX市XX区XXXX路XX号</string>
+    <string name="contact">联系电话：</string>
+    <string name="tel">1234567890</string>
+    <string name="last_grade">前一次睡眠评价</string>
+    <string name="init_score">87.5</string>
+    <string name="word_score">分</string>
+    <string name="init_rating">87</string>
+    <string name="num_stars">5</string>
+    <string name="state_great">状态还不错哦！</string>
+    <string name="over_view">总览</string>
+    <string name="hearbeat_rate">心率</string>
+    <string name="breathe">呼吸</string>
+    <string name="body_move">体动</string>
+    <string name="sleep">睡眠</string>
+    <string name="deep_sleep">深睡</string>
+    <string name="steady">平稳</string>
+    <string name="comfortable">舒畅</string>
+    <string name="calm">镇定</string>
+    <string name="carosis">熟睡</string>
+    <string name="seldom">较少</string>
+    <string name="good">良好</string>
+    <string name="score_ninty">90</string>
+    <string name="score_eighty">80分</string>
+    <string name="current_body_move_state">当前状态</string>
+    <string name="current_breathe_rate">当前呼吸率</string>
+    <string name="current_heartbeat_rate">当前心率</string>
+    <string name="yesterday_sleep_estimation">前一天睡眠评估</string>
+    <string name="today_sleep_situation">今日睡眠情况</string>
+    <string name="current_body_move_value">17次/分</string>
+    <string name="today_average_breathe_rate_value">19次/分</string>
+    <string name="current_heartbeat_rate_value">52次/分</string>
+    <string name="today_average_heartbeat_rate_value">55次/分</string>
+    <string name="referenced_breathe_rate">参考呼吸率：18次/分</string>
+    <string name="referenced_heartbeat_rate">参考心率：50次/分</string>
+    <string name="abnormal_type_prompt">异常类型</string>
+    <string name="abnormal_period_prompt">发生时间</string>
+
+    <string-array name="abnormal_types_array">
+        <item>所有</item>
+        <item>心率异常</item>
+        <item>呼吸异常</item>
+        <item>体动异常</item>
+    </string-array>
+    <string-array name="abnormal_period_array">
+        <item>所有</item>
+        <item>今日</item>
+        <item>本周内</item>
+        <item>本月内</item>
+        <item>三个月内</item>
+        <item>半年内</item>
+    </string-array>
+
+    <string name="title_activity_volley_test">VolleyTestActivity</string>
+    <string name="title_activity_search_pwd">忘记密码</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_data">数据查看</string>
+    <string name="title_activity_error">异常查看</string>
+    <string name="title_activity_org_intro">养老院简介</string>
+    <string name="title_activity_push">健康知识</string>
+    <string name="title_activity_main">主界面</string>
+    <string name="title_activity_personal_center">个人中心</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="push_title_default">睡眠时间健康小常识</string>
+    <string name="push_title_content">\t\t养生讲“三分调，七分养”，是指人体脏腑失调的时候，虽然用特别的食品、保健品或药物进行调养，能够起到一定的作用，但是还有七分，是要通过在日常睡眠、饮食、情志、运动等诸方面养成良好习惯，使人体尽快恢复平衡并保持平衡。如果您想脏腑平衡、身心安康，就必须顺应天地自然的规律，“饮食有节，起居有常，不妄劳作”，做到“和于阴阳，调于四时”，而能“终其天年，度百岁乃去”!
+
+一、睡眠的重要性
+
+　　1. 战国时名医文挚对齐威王说，他的养生之道是把睡眠放在头等位置，人和动物只有睡眠才能生长，睡眠帮助脾胃消化食物。所以睡眠是养生的第一大补，人一个晚上不睡觉，其损失一百天也难以恢复。
+
+　　2.清代医家李渔曾指出：“养生之诀，当以睡眠居先。睡能还精，睡能养气，睡能健脾益胃，睡能坚骨强筋。”
+
+　　3, 老百姓常讲：“药补不如食补，食补不如觉补。”人要顺应自然的规律，跟着太阳走，即天醒我醒，天睡我睡，养成早睡早起的生活习惯，不要跟太阳对着干。
+
+二、现代人对睡眠有哪些认识误区?
+
+　　大部分人之所以难以养成早睡早起的习惯，除了一些人本身不良的睡眠习惯以外，主要是对睡眠存在着许多误区：
+
+　　1.有些人认为每天只要睡足七八个小时就行，因此觉得晚上熬夜也不要紧，白天补睡就行了。
+
+　　2.很多人晚睡或者睡眠不好，只知道第二天会感到精神疲倦，而不知道对身体有多大伤害。
+
+　　3.许多人认为失眠、入睡难只是小问题，吃几片安眠药就行了，不会想到是由于体内脏腑失衡造成的。
+
+　　4.有些人喜欢夜间看书、写文章等，觉得过了23点后安静，人也很精神，效率高。
+
+　　要想走出以上几种对睡眠的认识误区，首先必须知道不良睡眠习惯对人体的伤害以及何时睡眠有利于养生。
+
+三、长期晚睡或睡眠不足对身体有哪些伤害?
+
+　　晚上9点到凌晨3点是养肝护胆的最佳时间。人如果长时间过子时(23点-1点)不睡，就会伤胆伤肝。初期表现为眼圈黑，眼睛干涩、疲倦、内凹，头晕、头痛，精神疲倦以及注意力不集中等，严重的还会出现脏腑失衡和各种病症。
+
+　　1.眼部疾病：肝开窍于目，过子时不睡易引起肝虚，出现视力模糊、老花、迎风流泪等症状，还会形成青光眼、白内障、眼底动脉硬化、视网膜病变等眼疾。(所以眼睛有问题，一般就是肝有问题而引起的)
+
+　　2.出血症状：肝有藏血、调节血液的功能，过子时不睡，会造成肝血不足，还会引起吐血、流鼻血、皮下出血、牙龈出血、眼底出血、耳出血等出血症状。
+
+　　3.肝胆方面疾病：子时胆要更替胆汁，胆经旺时人若不睡，胆汁更替不利，过浓而结晶成石，久之即得胆结石。现在广州平均5个人左右就有一个乙肝病毒携带者，大都是因为违反自然规律过了子时不睡觉造成的。乙肝病毒携带意味着将来其中40%-60%的肝硬化，严重的则形成肝癌。
+
+　
+
+　　晚上9点到凌晨3点是有效睡眠时间，也是最佳睡眠时间。晚上(21点-3点)少睡半个小时，白天多睡3个小时都补不回来。因此建议大家把握有效的睡眠时间，最好晚上9点钟睡觉，最晚不要超过10点半。
+
+　　1.每天的21点-23点为亥时，三焦经最旺，属手少阳三焦经，“三焦通百脉”;23点-1点为子时，胆经最旺，属足少阳胆经。一个是手少阳，一个是足少阳。少阳是什么?少阳是初升的太阳!人只有在23点前进入实际的睡眠状态，少阳气才足，人体的太阳才能升起来，才会有良好的身体和精神状态。大多数百岁老人晚上都在9点前就寝。
+
+　　2.凌晨1点-3点为丑时，肝经最旺。《黄帝内经》讲“人卧则血归于肝”，而且肝养血、生血的最佳时间是21点到凌晨3点。人如果天天熬夜到1点多，肝回不了血，有毒的血排不掉，新鲜的血生不成，人体脏腑得不到气血的补养，极易失衡而致病。</string>
+    <string name="title_activity_standard">评测标准</string>
+    <string name="apnea">呼吸暂停：</string>
+    <string name="title_activity_member_list">知眠</string>
+    <string name="my_standard">我的判别标准</string>
+    <string name="title_activity_set_judgement">我的判别标准</string>
+    <string name="title_activity_set_heartbeat">心率判别设定</string>
+    <string name="title_activity_set_breath">呼吸判别设定</string>
+    <string name="title_activity_set_move">体动判别设定</string>
+    <string name="title_activity_set_time_off_bed">离床时间设定</string>
+    <string name="title_activity_emergency_contact">我的紧急联系人</string>
+    <string name="title_activity_analyse">个性分析</string>
+    <string name="title_activity_organization">养老院</string>
+    <string name="title_activity_org_acti">养老院活动</string>
+    <string name="confirm">确定</string>
+    <string name="last_breath">上次睡眠呼吸</string>
+    <string name="last_heartbeat">上次睡眠心率</string>
+    <string name="last_movement">上次睡眠体动</string>
+    <string name="title_activity_ipsetting">IP设置</string>
+    <string name="title_activity_null_user">非合法用户</string>
+</resources>

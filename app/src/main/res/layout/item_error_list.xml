@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- 异常类型 -->
+    <TextView
+        android:id="@+id/tv_abnormal_type"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/abnormal_list_item_height"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/colorTabText"
+        android:textSize="@dimen/abnormal_list_item_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_abnormal_time"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/abnormal_list_item_height"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:gravity="left"
+        android:textColor="@color/colorTabText"
+        android:textSize="@dimen/abnormal_list_item_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_abnormal_date"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/abnormal_list_item_height"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:textColor="@color/colorTabText"
+        android:textSize="@dimen/abnormal_list_item_text_size"/>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eric.zmappii.activities.SetTimeOffBedActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBgDefault"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="离床时间超过设定时间后，系统发送离床报警信号"
+            android:textColor="@color/colorListText"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/img_time"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_clock"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/img_time"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:maxLength="6"
+                android:background="@null"
+                android:hint="请输入离床报警时间（分钟）"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="离床报警时段"
+            android:textColor="@color/colorListText"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_warn_time_start"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="7dp"
+            android:background="@android:color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                android:text="开始报警"
+                android:textSize="16sp"
+                android:textColor="@color/colorListText"/>
+
+            <ImageView
+                android:id="@+id/img_right01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_right"/>
+
+            <TextView
+                android:id="@+id/tv_warn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/img_right01"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:textColor="@color/colorListText"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorDivider"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_warn_time_stop"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@android:color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                android:text="结束报警"
+                android:textSize="16sp"
+                android:textColor="@color/colorListText"/>
+
+            <ImageView
+                android:id="@+id/img_right02"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_right"/>
+
+            <TextView
+                android:id="@+id/tv_warn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/img_right02"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:textColor="@color/colorListText"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

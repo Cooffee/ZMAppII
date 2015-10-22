@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eric.zmappii.activities.EmergencyContactActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBgDefault"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/layout_contact_name"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/img_contact"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_user"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img_contact"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="联系人姓名"/>
+
+            <ImageView
+                android:id="@+id/img_right01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_right"/>
+
+            <TextView
+                android:id="@+id/tv_contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/img_right01"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/colorListText"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorDivider"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_contact_phone"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/img_phone"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_phone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img_phone"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="联系电话"/>
+
+            <ImageView
+                android:id="@+id/img_right02"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_right"/>
+
+            <TextView
+                android:id="@+id/tv_contact_name_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/img_right02"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/colorListText"/>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_bg"
+            android:text="拨打紧急电话"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

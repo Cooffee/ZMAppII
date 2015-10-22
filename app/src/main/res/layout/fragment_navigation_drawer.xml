@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNavDrawerBg"
+    tools:context="com.clare.fragment.NavigationDrawerFragment">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/contentDrawerImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/drawer_margin_top"
+        android:paddingTop="@dimen/drawer_margin_top">
+
+        <RelativeLayout
+            android:id="@+id/layout_warning"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:layout_marginLeft="16dp">
+
+            <com.eric.zmappii.views.RoundImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ic_user" />
+
+            <ImageView
+                android:id="@+id/img_point"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:visibility="visible"
+                android:src="@drawable/ic_circle"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_user"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="18857119873"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:text="切换睡眠者"
+                android:textColor="@color/colorHighlight"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentDrawerImage"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
